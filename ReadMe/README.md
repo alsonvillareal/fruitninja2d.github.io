@@ -9,8 +9,7 @@
 - 1 Minute Game Timer
 
 ## How to Run
-
-- Open Code/index.html in a browser
+- To play the game, visit https://alsonvillareal.github.io/ . Alternatively, you may also pull this repository (develop branch) and open index.html in a browser.
 - In the welcome screen, click the "Play" Button
 - When the timer stops counting, you may click on the fruits to slice them; you may also click and drag using your mouse to slice through the fruit.
 - The game ends when the timer runs out, displaying your score
