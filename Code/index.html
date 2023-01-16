@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Ninja 2D</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Main Canvas -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Front Body -->
+    <div class="startGame" id="startGame">
+        <div class="home">
+            <p>CUT THE PAIN POINTS AND BE THE SMARTLY NINJA MASTER</p>
+            <button id="startGameBtn">Play <i ></i></button>
+        </div>
+        <p class="copyRight">&#169; Created By alsonvillareal@gmail.com <i ></i>  - 2022</p>
+    </div>
+
+    <!-- Timer  -->
+    <div class="countDown" id="countDownContainer">
+        <h1></h1>
+    </div>
+
+    <!-- In Game Body -->
+    <div id="inGameContainer">
+        <div class="scoreDiv">
+            <h1><span id="score"></span></h1>
+        </div>
+        <div class="gameCountTime">
+            <h1 id="gameMinuteAndSecond">00 : 00</h1>
+        </div>  
+    </div>
+
+    <div id="gameEndDiv">
+        <div class="gameEndContainer">
+            <h1>SCORE: <span id="endGameScore"></span></h1>
+            <button id="returnHome">Play Again <i ></i></button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
